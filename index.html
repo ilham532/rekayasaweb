@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pemesanan Tiket Pesawat</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .card-img-top {
+        height: 200px; /* Tinggi tetap untuk semua gambar */
+        object-fit: cover; /* Memastikan gambar terisi sesuai ukuran */
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">Pesan Tiket</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destinasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <h1 class="text-center my-5">Destinasi Penerbangan</h1>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="jakarta.jpg" alt="Jakarta" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Jakarta</h5>
+              <p class="card-text">Harga: Rp 1.000.000</p>
+              <a href="#" class="btn btn-success">Pesan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="bali.jpg" alt="Bali" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bali</h5>
+              <p class="card-text">Harga: Rp 1.500.000</p>
+              <a href="#" class="btn btn-success">Pesan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="surabaya.jpg" alt="Surabaya" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Surabaya</h5>
+              <p class="card-text">Harga: Rp 800.000</p>
+              <a href="#" class="btn btn-success">Pesan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="jogjakarta.jpg" alt="Yogyakarta" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Yogyakarta</h5>
+              <p class="card-text">Harga: Rp 700.000</p>
+              <a href="#" class="btn btn-success">Pesan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="bandung.jpg" alt="Bandung" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bandung</h5>
+              <p class="card-text">Harga: Rp 600.000</p>
+              <a href="#" class="btn btn-success">Pesan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="medan.jpg" alt="Medan" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Medan</h5>
+              <p class="card-text">Harga: Rp 1.200.000</p>
+              <a href="#" class="btn btn-success">Pesan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5" id="home">
+      <h2 class="text-center my-5">
+        Selamat Datang di Aplikasi Pemesanan Tiket Pesawat
+      </h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="datang.jpeg"
+            alt="Selamat Datang"
+            class="img-fluid rounded mb-4"
+          />
+        </div>
+        <div class="col-md-6">
+          <p>
+            Aplikasi kami dirancang untuk memudahkan Anda dalam memesan tiket
+            pesawat secara online. Temukan berbagai pilihan penerbangan yang
+            nyaman dan terjangkau.
+          </p>
+          <h5>Fitur Utama:</h5>
+          <ul>
+            <li>Pemesanan tiket dengan cepat dan mudah.</li>
+            <li>Dapatkan informasi penerbangan secara real-time.</li>
+            <li>Pembayaran yang aman dan nyaman.</li>
+            <li>Pilihan kursi dan layanan tambahan.</li>
+          </ul>
+          <p>
+            Bergabunglah dengan kami dan nikmati pengalaman baru dalam
+            bepergian. Pesan sekarang dan rasakan kemudahan serta kenyamanan
+            yang kami tawarkan!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container mt-5 bg-light p-4 rounded shadow text-center"
+      id="kontak"
+    >
+      <h2>Kontak Kami</h2>
+      <p><strong>Nama Pemilik:</strong> ilham</p>
+      <p><strong>Email:</strong> ilhamdwip12345.com</p>
+      <p><strong>Telepon:</strong> 085852959382</p>
+      <p><strong>Alamat:</strong> Jl. Penerbangan No. 123, Jakarta</p>
+      <p>
+        Silakan hubungi kami jika Anda memiliki pertanyaan atau butuh bantuan!
+      </p>
+    </div>
+
+    <footer class="mt-5 bg-light py-3">
+      <div class="container text-center">
+        <p>&copy; ilham dwi putra. 231011700521</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
